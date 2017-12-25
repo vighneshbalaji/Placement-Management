@@ -1,0 +1,24 @@
+<b>Founded	</b>&nbsp;&nbsp;&nbsp;&nbsp;	29 December 1945; 71 years ago (Amalner, Maharashtra)
+<b>Founder	</b>&nbsp;&nbsp;&nbsp;&nbsp;	Mohamed Azim Hashim Premji
+<b>Headquarters</b>&nbsp;&nbsp;&nbsp;&nbsp;	Bengaluru, Karnataka, India
+<b>Area served</b>&nbsp;&nbsp;&nbsp;&nbsp;	Worldwide
+<b>Key people</b>&nbsp;&nbsp;&nbsp;&nbsp;	Azim Premji (Chairman), Abidali Neemuchwala (CEO), 
+<b>Services</b>&nbsp;&nbsp;&nbsp;&nbsp;	Digital Strategy, Business Consulting and IT Services
+
+The Customer
+An USA-based leading computer hardware & software solutions provider
+
+The Challenge
+A leading computer hardware & software solutions provider based in the USA wanted to design a board with powerful two CPUs and other functions. Wipro offered extremely high technology design solutions involving the end-to-end design services. 
+
+In Wipro, it was first project that required complex board & ASIC development (end - to end). Before that Wipro had only participated in such development in US and hence had the theoretical know-how but not the practical expertise. Also, the quality requirement was very high, as these boards would go in fault tolerant systems that had to be up 99.9% of time. In addition to the above, to analyze effect of noise and coupling on the boards, new EDA tools were needed. Wipro hadn't learned this analysis before. As these were part of fault tolerant systems, there were special design considerations to be taken care of which only complicated the design further. The ASIC design complexity was very high increasing the risk of bugs in ASICs.
+ 
+The Solution
+A team of 15 engineers worked on this project for 11 months and the entire debugging process was finished ahead of schedule. Hence the total solution was delivered one month ahead of schedule thereby enabling the customer time-to-market advantage over their competition. Wipro provided exceptional results on the technical side and ensured that there were no bugs in the final code. Large testing teams and test methodologies were employed to verify everything. These boards went through rigorous test in Heat chambers, Voltage cycling etc before product was released. It was first time that the team at Wipro learned to do the EDA analysis.
+A new "tag mirroring scheme" was developed and patented (patent owned by client).
+Exhaustive verification processes, strict quality norms and a dedicated team effort resulted in the ASIC design, Board design and System verification becoming the first power-on success. 
+
+The specifications of the board designed by the Wipro team included 2 CPUs per board with 2 MB cache per CPU, an 18 layered board, a Level 2 cache controller and an error detection & correction memory controller. There were two ASICs designed and developed from the scratch for the Level 2 cache controller and the EDC memory controller. The ASIC designs proved Wipro's ability to deliver First Time Silicon Success once again. The board design was successful in supporting Unix boot up within 4 hours of power-up.
+Hence as usual Wipro was able to provide much more than what the client had desired.
+
+The two decades experience that Wipro possessed in VLSI design only got strengthened by the First Time Silicon Success that it was able to achieve in this project and helped it to acquire more global customers for prospective projects.

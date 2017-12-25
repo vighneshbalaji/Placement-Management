@@ -1,0 +1,584 @@
+.mainpage-body{
+	background-image: url('../images/bg-img.jpg');
+
+    /* Full height */
+    height: 100%; 
+	opacity: 0.97;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	overflow-x: hidden;
+}
+
+/* card for institute */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	border-radius: 5px;
+	background-color: #ffffff;
+	width: 260px;
+	height: 270px;
+	margin-bottom: 15px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 8px 16px 30px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-header {
+    padding: 10px 16px;
+}
+
+.card-body {
+    padding: 2px 16px;
+	height: 100px;
+}
+
+.card-footer {
+    padding: 2px 16px;
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+	width: 120px;
+    height: 70px;
+}
+
+/* ::-webkit-scrollbar
+{
+	width:10px;
+	height:10px;
+	
+}
+::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 5px grey;
+
+}
+::-webkit-scrollbar-thumb{
+	background:red;
+	
+}
+ */
+
+.regform>.panel-primary>.panel-heading
+{
+background-color: #b73348;
+}
+
+
+/* CHANGE REGISTER BUTTON COLOR */
+#sturegister .btn-info {
+    background-color: #5bde9e;
+    border-color: #4cbf87;
+}
+
+#sturegister .btn-info:hover {
+	background-color: #2e674b;
+    border-color: #2e674b;
+}
+/* CLOSED REGISTER BUTTON */
+
+/* CHANGING LABEL CSS IN THE REGISTRATION FORM */
+
+label[for=binstitution]
+{
+	font-family: Bookman Old Style; 
+	color: #EF7421;
+}
+
+/* CLOSE CHANGING LABEL CSS IN THE REGISTRATION FORM */
+
+
+/* OVERRIDING THE PANEL */
+.panel-group .panel{
+	margin-bottom: 20px;
+}
+/* Closed OVERRIDING THE PANEL */
+
+
+
+/* menu icon */
+.bar {
+    width: 20px;
+    height: 3px;
+    background-color: #BD4200;
+    margin: 4px;
+}
+/* Closed menu icon */
+
+/* alert for no student id is available in the student table */
+.alert-nostudent
+{
+	position: fixed;
+	left: 5px;
+	right: 5px;
+	z-index: 1;
+	transition: 1s;
+	margin-bottom: 0px;
+    background-color: rgba(250, 248, 102, .98);
+	color: #1471ba;
+	font-weight: bold;
+		
+}
+
+
+.alert-nostudent{
+	-moz-transform: translateY(-250px);
+    -ms-transform: translateY(-250px);
+    -webkit-transform: translateY(-250px);
+    transform: translateY(-250px);
+}
+
+.open-alert-nostudent{
+	-moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+/* close alert student id */
+
+/* The Profile Photo */
+.profile-photo{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	border: 5px solid white;
+	margin-left: 85px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(206, 212, 255); /* white */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav{
+	-moz-transform: translateX(-250px);
+    -ms-transform: translateX(-250px);
+    -webkit-transform: translateX(-250px);
+    transform: translateX(-250px);
+}
+
+/* The navigation menu links */
+.sidenav a {
+	text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+	font-weight: bold;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #000000;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.mainpage {
+    width: 100%;
+    transition: .5s;
+    padding: 20px;
+	z-index: 2;
+}
+
+.mainpage {
+	-moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 1100px) {
+    .sidenav a {font-size: 16px;}
+	.profile-photo{
+		width: 80px;
+		height: 80px;
+		border-radius: 6px;
+		border: 3px solid white;
+		margin-left: 100px;
+	}
+}
+
+
+.opennav{
+	-moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.openmain{
+	-moz-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px);
+}
+
+.sidenavmask
+{
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: .5s;
+}
+
+.sidenavmask{
+	-moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.openmask{
+	
+	-moz-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px);
+	background-color: rgba(102, 102, 102, .6);	
+	z-index: 1;
+}
+
+
+/* Closed navigation menu */
+
+/* user navbar color */
+
+.navbar-custom {
+    background-color: #0D426C;
+    color: #E6E6E6;
+    border-radius: 5px;
+	position: sticky;
+    top: 2px;
+    z-index: 1;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+	padding: 15px 8px;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: rgb(12, 51, 83);
+}
+
+
+.navbar-custom .navbar-brand{
+	width: 50px;
+}
+.navbar-custom .container {
+    color:#eeeeee;
+	background-color: #eeeeee;
+	position: absolute;
+	top: 7px;
+	left: 6px;
+	padding-top: 6px;
+	padding-left: 4px;
+	height: 35px;
+	width: 35px;
+	border-radius: 2px;
+}
+.navbar-custom .navbar-toggle {
+    background-color: #eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color: #55ACEE;
+}
+.navbar-custom .navbar-nav .dropdown-menu  { 
+  background-color: rgba(255, 255, 255, 0.87);
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  { 
+	font-weight: bold;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  { 
+  color: #0f72be;
+  background-color: rgb(242, 242, 242);
+}
+
+@media (max-width: 1200px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+/* End user navbar color */
+
+/* Animated Button */
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0 9px #999;
+}
+
+.login-button:hover {background-color: #3e8e41;}
+
+.login-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* End Animated Button */
+
+/* Login Box Adjust */
+#login-box{
+    min-width: 270px;
+    padding: 14px 14px;
+    overflow: hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-box .input-group {
+    margin-bottom: 10px;
+}
+#login-box .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-box .help-block{
+    font-size:12px    
+}
+
+/* End Login Box Adjust */
+
+/* Disable triangle for list in searchbox */
+input[type="search"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+/*end Disable triangle for list in searchbox */
+
+/* Button align top in the student update details from */
+ 
+ #uptsearchbtn1{
+	position: relative;
+    top: 20px;
+}
+
+#uptupdatebtn,#uptclrbtn,#uptcnclbtn{
+	position: relative;
+    top: 7px;
+}
+
+} 
+
+/* end Button align right in the student update details from */
+
+.panel-body > a
+{
+	text-decoration: none;
+}
+
+.placementdetail{
+    line-height: 1.6;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+/* Button align top in the student update details from */
+
+#plaregregisterbtn,#plaregclrbtn,#plaregcnclbtn,#plauptupdatebtn,#plauptclrbtn,#plauptcnclbtn{
+	position: relative;
+    top: 7px;
+}
+
+/* end Button align right in the student update details from */
+
+/* This Class is used for professional look */
+.myregular-font{
+font-family: courier new;
+font-size: 12pt;	
+}
+/* End This Class is used for professional look */
+
+/* Redefine the Well Class */
+.well
+{
+	background-color: rgba(164, 93, 1, 0.9);
+    color: #FFFFB6;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+/* End Redefine the Well Class */
+
+/* Student Files View */
+.demo {
+	height: 350px;
+	border-top: solid 1px #BBB;
+	border-left: solid 1px #BBB;
+	border-bottom: solid 1px #FFF;
+	border-right: solid 1px #FFF;
+	background: #FFF;
+	overflow: scroll;
+	padding: 5px;
+}
+/* End Student Files View */			
+
+.rem-hr
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.pla-material-panel-body , .company-material-panel-body{
+	height: 310px;
+	padding-bottom: 30px;
+}
+
+.pla-placement-detail-body
+{
+	height: 235px; 
+	overflow-y: scroll;
+}
+
+
+
+.pla-material-panel-body-demo{
+	height: -webkit-fill-available;
+}
+
+.pla-material{
+	color: #000000;
+}
+
+#stuplaregresdiv
+{
+	display: none;
+	margin-top: 0px;
+}
+
+.pla-company-a{
+	color: #FFFFB6;
+    text-decoration: none;
+}
+
+.pla-company-a:hover{
+	color: #c7faff;
+	text-decoration: none;
+} 
+
+
+.company-detail-head
+{
+	height: 100px; 
+	overflow-y: scroll;
+}
+
+
+/* placement remove panel btns */
+.plaremovebtns
+{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+.institute-detail
+{
+		font-size: 11pt;
+		text-align: justify;
+}
+
+@media (max-width: 1200px) {
+	#notice-board
+	{
+		margin-top: 20px; margin-bottom: 0px;
+	}
+}
+
+/* search btn in nav bar */
+.srchbtn
+{
+	background-color: teal; border-color:  teal; height: 34px;
+}
+
+.srchbtn:hover{
+	background-color: #0b6565;
+	border-color: #0b6565;
+}
+
+
+#resetpasswrdcurpasswrd, #resetpasswrdnewpasswrd, #resetpasswrdrenewpasswrd{
+	z-index: 0;
+}
