@@ -28,5 +28,5 @@ the institute. It helps placement officers to easily track and view student stat
 
 Front end               :   HTML5, CSS3, BOOTSTRAP <br />
 Client-Side language    :   JavaScript, jQuery, AJAX <br />
-Server-Side language    :   PHP5.2 <br />
+Server-Side language    :   PHP7 <br />
 Back end                :   MariaDB 5.2 <br />
