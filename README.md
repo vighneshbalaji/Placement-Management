@@ -25,3 +25,8 @@ The  System  provides  the  facility  to  download  student  details  and  those
 eligible  for  the  specified  placement  drive,  those  who  are  registered  for  the  specified 
 placement drive and those who are placed for the specified placement in form of PDF file by 
 the institute. It helps placement officers to easily track and view student status.
+
+Front end               :   HTML5, CSS3, BOOTSTRAP <br />
+Client-Side language    :   JavaScript, jQuery, AJAX <br />
+Server-Side language    :   PHP5.2 <br />
+Back end                :   MariaDB 5.2 <br />
